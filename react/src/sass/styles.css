@@ -1,0 +1,94 @@
+.prenuvo {
+  margin: 0 auto; }
+  .prenuvo .navigation-ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.4rem; }
+    .prenuvo .navigation-ul--link {
+      color: #2998ff;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 3rem;
+      transition: all .3s;
+      margin-bottom: -4rem;
+      z-index: 1000; }
+      .prenuvo .navigation-ul--link:last-child {
+        margin-right: 5rem; }
+      .prenuvo .navigation-ul--link:hover {
+        color: white;
+        transform: scale(1.1); }
+      .prenuvo .navigation-ul--link:focus, .prenuvo .navigation-ul--link:active, .prenuvo .navigation-ul--link:visited {
+        text-decoration: underline; }
+  .prenuvo .img_page {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0; }
+    .prenuvo .img_page .large {
+      display: flex;
+      flex-direction: column; }
+      .prenuvo .img_page .large_img {
+        width: 100%; }
+    .prenuvo .img_page .small {
+      line-height: 0;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 0px;
+      -moz-column-count: 2;
+      -moz-column-gap: 0px;
+      column-count: 2;
+      column-gap: 0px; }
+      .prenuvo .img_page .small_img {
+        width: 100% !important;
+        height: auto !important; }
+  .prenuvo .form {
+    max-width: 1140px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #868788; }
+    .prenuvo .form a {
+      text-decoration: none;
+      color: #868788; }
+    .prenuvo .form .note1 {
+      color: #181717;
+      margin-top: 30px; }
+    .prenuvo .form .note2 {
+      color: grey; }
+    .prenuvo .form .note3 {
+      color: grey;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .prenuvo .form .note4 {
+      color: grey;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .prenuvo .form hr {
+      margin: 20px 0; }
+    .prenuvo .form .section {
+      padding: 30px; }
+      .prenuvo .form .section h3 {
+        margin: 20px 0; }
+      .prenuvo .form .section .explanationTitle {
+        color: #131212;
+        margin-bottom: 10px;
+        margin-left: 20px; }
+    .prenuvo .form .checkboxContainer {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 20px; }
+      .prenuvo .form .checkboxContainer .checkbox {
+        color: #868788;
+        width: auto;
+        margin: 5px 2.5px;
+        padding: 5px;
+        border: 1px solid #868788;
+        border-radius: 3px;
+        white-space: nowrap; }
+    .prenuvo .form .headacheAdd {
+      display: flex;
+      justify-content: space-around; }
+  .prenuvo .saveFinish {
+    display: flex;
+    justify-content: flex-end; }
+    .prenuvo .saveFinish .link {
+      margin: 30px;
+      text-decoration: none;
+      color: #868788; }

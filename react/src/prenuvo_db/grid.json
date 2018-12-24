@@ -1,0 +1,135 @@
+{
+  "rotation_dwibs": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "rotation_dwibs",
+      "protocolName": "DWIBS"
+    }
+  },
+  "t1_whole_body": {
+    "path": "5adfb1da",
+    "bwgif": {
+      "seriesDescription": "t1_whole_body",
+      "protocolName": "SPINE"
+    }
+  },
+  "ax_t2_pelvis_male": {
+    "path": "8c6f7beb",
+    "bwgif": {
+      "seriesDescription": "ax_t2_pelvis_male",
+      "protocolName": "Ax T2 Pelvis Male"
+    }
+  },
+  "ax_t2_neck": {
+    "path": "8cf8c69c",
+    "bwgif": {
+      "seriesDescription": "ax_t2_neck",
+      "protocolName": "Ax T2 Neck"
+    }
+  },
+  "3d_tof_cow": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "3d_tof_cow",
+      "protocolName": "3D TOF COW"
+    }
+  },
+  "diffusion_prostate_adc": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "diffusion_prostate_adc",
+      "protocolName": "Diffusion Prostate"
+    }
+  },
+  "ax_dwibs": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_dwibs",
+      "protocolName": "DWIBS"
+    }
+  },
+  "t2_whole_spine": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "t2_whole_spine",
+      "protocolName": "SPINE"
+    }
+  },
+  "rotation_mip_cow": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "rotation_mip_cow",
+      "protocolName": "Image Filter"
+    }
+  },
+  "cor_t2_stir_pelvis": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "cor_t2_stir_pelvis",
+      "protocolName": "Cor T2 STIR Pelvis"
+    }
+  },
+  "cor_dwibs": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "cor_dwibs",
+      "protocolName": "DWIBS"
+    }
+  },
+  "ax_dwibs_prostate": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_dwibs_prostate",
+      "protocolName": "Diffusion Prostate"
+    }
+  },
+  "ax_t1_out_of_phase": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_t1_out_of_phase",
+      "protocolName": "AX T1 3D VIBE Abdomen_2"
+    }
+  },
+  "ax_t2_blade_ctm_chest_abdomen_pelvis": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_t2_blade_ctm_chest_abdomen_pelvis",
+      "protocolName": "Ax T2 BLADE CTM Chest/Abdomen/Pelvis"
+    }
+  },
+  "stir_whole_body": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "stir_whole_body",
+      "protocolName": "SPINE"
+    }
+  },
+  "ax_flair_head": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_flair_head",
+      "protocolName": "Ax Flair Head"
+    }
+  },
+  "dwibs_adc_composed_1": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "dwibs_adc_composed_1",
+      "protocolName": "DWIBS"
+    }
+  },
+  "ax_t1_in_phase_echo_2": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "ax_t1_in_phase_echo_2",
+      "protocolName": "AX T1 3D VIBE Abdomen_2"
+    }
+  },
+  "cor_t2_haste_5mm": {
+    "path": "1ed58958",
+    "bwgif": {
+      "seriesDescription": "cor_t2_haste_5mm",
+      "protocolName": "Cor T2 HASTE 5mm"
+    }
+  }
+}

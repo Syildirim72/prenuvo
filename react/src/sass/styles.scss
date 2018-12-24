@@ -1,0 +1,148 @@
+.prenuvo {
+  margin: 0 auto;
+  // background-color: orange;
+
+  .navigation {
+    &-ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.4rem;
+
+      &--link {
+        color: #2998ff;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 3rem;
+        transition: all .3s;
+        margin-bottom: -4rem;
+        z-index: 1000;
+
+        &:last-child {
+          margin-right: 5rem;
+        }
+
+        &:hover {
+          color: lighten(#2998ff, 50%);
+          transform: scale(1.1);
+        }
+
+        &:focus, &:active, &:visited {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .img_page {
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0;
+
+    .large {
+      display: flex;
+      flex-direction: column;
+
+      &_img {
+        width: 100%;
+      }
+    }
+
+    .small {
+      line-height: 0;
+   
+      -webkit-column-count: 2;
+      -webkit-column-gap:   0px;
+      -moz-column-count:    2;
+      -moz-column-gap:      0px;
+      column-count:         2;
+      column-gap:           0px;  
+
+      &_img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    } 
+  }
+
+  .form {
+    max-width: 1140px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #868788;
+
+    a {
+      text-decoration: none;
+      color: #868788;
+    }
+
+    .note1 {
+      color: rgb(24, 23, 23);
+      margin-top: 30px;
+    }
+
+    .note2 {
+      color: grey;
+
+    }
+    .note3 {
+      color: grey;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .note4 {
+      color: grey;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    .section{
+      padding: 30px;
+
+      h3 { margin: 20px 0;}
+
+      .explanationTitle {
+        color: rgb(19, 18, 18);
+        margin-bottom: 10px;
+        margin-left: 20px;
+      }
+    }
+
+    .checkboxContainer {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 20px;
+      
+      .checkbox {
+        color: #868788;
+        width: auto;
+        margin: 5px 2.5px;
+        padding: 5px;
+        border: 1px solid #868788;
+        border-radius: 3px;
+        white-space: nowrap;
+      }
+    }
+
+    .headacheAdd {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .saveFinish {
+    display: flex;
+    justify-content: flex-end;
+
+
+      .link {
+       margin: 30px;    
+       text-decoration: none;
+       color: #868788;
+      }
+
+
+  }
+}
