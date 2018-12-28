@@ -205,6 +205,14 @@ questionSection = ({header, text, array, text2 = false, array2}) => {
   )
 }
 
+quitForm = (type) => {
+  const check = this.state.questionary[this.replace('I understand this')]
+  if(!check) return alert('Please check "I understand this"...'  )
+  if(type === 'save') return alert('form saved...')
+  if(type === 'finish') return alert('Succesfuly finished...')
+  
+}
+
   render() {
     const { createCheckbox, createCheckboxes } = this
     const asterix = <span style={{ color: 'red'}}>*</span>
@@ -313,8 +321,8 @@ apply)? {asterix}</div>
         )}
 
         <div className="saveFinish">
-          <Link to="#" className="link" onClick={()=>alert('form saved...')}>Save</Link> 
-          <Link to="#" className="link" onClick={()=>alert('Succesfuly finished...')}>Finish</Link>
+          <Link to="#" className="link" onClick={() => this.quitForm('save')}>Save</Link> 
+          <Link to="#" className="link" onClick={() => this.quitForm('finish')}>Finish</Link>
          </div>
       </div>
     )
