@@ -9,7 +9,6 @@ export default class App extends Component {
     this.state = {
       imgList: [],
       imgSizes: [],
-      screenWidth: 1140,
     };
   }
 
@@ -47,7 +46,7 @@ export default class App extends Component {
   }
 
   render() {
-    const { small, large, height } = this.state
+    const { small, large } = this.state
 
     return (
       <div className="img_page">

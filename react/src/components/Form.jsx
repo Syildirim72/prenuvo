@@ -218,7 +218,7 @@ quitForm = (type) => {
     const asterix = <span style={{ color: 'red'}}>*</span>
     return (
       <div className="form">
-        <a href="#">Medical History &#62; Symptoms</a>
+        <a href="javascript:void(0)">Medical History &#62; Symptoms</a>
         <div>
           <h2>This section asks about any symptoms you have been experiencing lately</h2>
           <div className="note1">A note about the symptoms you are or have recently been feeling {asterix}</div>
